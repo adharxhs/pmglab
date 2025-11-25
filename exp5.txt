@@ -25,11 +25,10 @@ effectively incorporating the remote changes into your branch history.
 5. Resolve any conflicts that may arise during the rebase process. Git will stop and notify
 you if there are conflicts that need to be resolved. Use a text editor to edit the conflicting
 files, save the changes, and then continue the rebase with:
+<<<<<<< HEAD
 $ git rebase --continue
 
 
 
 
 this line was added to test git fetch.This edit was made on remote repository for exp5
-
-ths line  was added to see git tag
